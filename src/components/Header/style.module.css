@@ -1,0 +1,32 @@
+.container{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0px 120px;
+    font-size: 26.1538px;
+    line-height: 34px;
+}
+
+.box{
+    display: flex;
+    gap: 82px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        height: 50px;
+        padding: 0px 10px;
+        font-size: 15px;
+        line-height: 0px;
+    }
+
+    .box{
+        font-size: 12px;
+        gap: 10px;
+        line-height: 0px;
+    }
+}
